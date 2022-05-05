@@ -1,0 +1,125 @@
+
+.kghead1{
+    display: flex;
+    width: 100%;
+    height: 80px;
+    background-color: #00A9FF;
+    align-items: center;
+    justify-content: center;
+    .kg-logo{
+        width:146px;
+        height: 38px;
+        .kg-logo-img{
+            width:146px;
+            height: 38px;
+        }
+    }
+    .search{
+        background-color: rgb(77,194,255);
+        width:280px;
+        height: 30px;
+        border-radius: 30px;
+        display: flex;
+        justify-content: left;
+        align-items:center;
+        margin-left: 30px;
+        margin-right: 50px;
+        .search-btn{
+            width: 15px;
+            height: 15px;
+            background-image: url("./icon_search_white.png");
+            background-size: 100%;
+            margin-right: 10px;
+            margin-left: 10px;
+            cursor: pointer;
+        }
+        .search-input{
+            background-color: rgb(77,194,255);
+            border:none ;
+            outline: none;
+            color: #fff;
+            font-size: 14px;
+        }
+        .search-input::-webkit-input-placeholder{
+            color: #fff;
+        }
+    }
+    .kghead1-lists{
+        display: flex;
+        align-items: center;
+        .kghead1-list-a{         
+            opacity: 0.9;
+            font-size: 14px;
+            color: #fff;
+            text-decoration: none;
+            margin-right: 30px;
+        }
+        .kghead1-list-a:hover{
+            opacity: 1;
+        }
+        .kghead1-list-button{
+            width:90px;
+            height: 30px;
+            border: none;
+            border-radius: 30px;
+            font-size: 16px;
+            font-weight: 500;
+            color: #00A9FF;
+            cursor: pointer;
+        }
+    }
+}
+.kghead2{
+    width: 100%;
+    height: 60px;
+    background-color: rgba(0, 169, 255, 0.04);
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    .kghead2-list{
+        width: 136px;
+        text-align: center;
+        .kghead2-a{
+            font-size: 16px;
+            color: #000;
+            text-decoration: none;
+        }
+        .kghead2-a:hover{
+            color: #00A9FF;
+        }
+        .kghead2-a-active{
+            padding: 5px 30px;
+            background-color: #00A9FF;
+            border-radius: 30px;
+            font-size: 16px;
+            font-weight: 600;
+            color: #fff;
+            text-decoration: none;
+        }
+        span{
+            font-size: 16px;
+            color: #000;
+        }
+        .ant-popover-open{
+            padding: 5px 30px;
+            background-color: #00A9FF;
+            border-radius: 30px;
+            font-size: 16px;
+            font-weight: 600;
+            color: #fff;
+        }
+        
+    }
+}
+.ant-popover-inner{
+    border-radius: 20px !important;
+    text-align: center;
+}
+.morelist-a{
+    width:80px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: inline-block;
+    font-size: 16px;
+    color: #000;
+}

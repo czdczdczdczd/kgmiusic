@@ -1,0 +1,40 @@
+.toplist{
+    width: 1000px;
+    margin: 40px auto;
+    display: flex;
+}
+.collapse{
+    width:218px;
+    margin-right: 32px;
+    .ant-collapse-content{
+        border: none;
+    }
+    .ant-collapse-content-box{
+        padding: 0 !important;
+        display: flex;
+        flex-wrap: wrap;
+        .collapse-list{
+            display: flex;
+            width:100%;
+            height:36px;
+            &:hover{
+                background-color: #169af3;
+                .collapse-list-span{
+                    color: #ffffff;
+                }
+            }
+            .collapse-list-img{
+                width: 16px;
+                height:16px;
+                display: block;
+                margin: auto 10px;
+            }
+            .collapse-list-span{
+                height:36px;
+                line-height: 36px;
+                display: block;
+                color: #555555;
+            }
+        }
+    }
+}
